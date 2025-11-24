@@ -5,6 +5,8 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     nixCats.url = "github:BirdeeHub/nixCats-nvim";
 
+    self.submodules = true;
+
     # neovim-nightly-overlay = {
     #   url = "github:nix-community/neovim-nightly-overlay";
     # };
@@ -108,7 +110,6 @@
               stylelint
               stylua
               taplo
-              tombi
               universal-ctags
               yaml-language-server
             ];
